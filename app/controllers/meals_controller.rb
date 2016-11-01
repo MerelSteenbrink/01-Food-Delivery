@@ -1,8 +1,6 @@
 require_relative "../models/meal.rb"
 require_relative "../views/meals_view.rb"
 
-require_relative "../models/meal.rb"
-require_relative "../views/meals_view.rb"
 
 class MealsController
   def initialize(meals_repository)

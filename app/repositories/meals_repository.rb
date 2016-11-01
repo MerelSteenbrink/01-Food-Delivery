@@ -1,4 +1,5 @@
 require_relative '../models/meal'
+require 'csv'
 
 class MealsRepository
 

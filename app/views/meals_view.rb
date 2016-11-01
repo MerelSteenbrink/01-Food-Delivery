@@ -3,7 +3,7 @@ class MealsView
   def list(meals)
     p "There are #{meals.length} meals in the menu:"
     meals.each do |meal|
-    p "#{meal.id} - #{meal.name} - #{meal.price}"
+    puts "#{meal.id} - #{meal.name} - #{meal.price}"
     end
   end
 
